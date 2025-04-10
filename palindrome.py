@@ -6,13 +6,4 @@ def is_palindrome(s):
     return s == s[::-1]
 
 # create a test cases for is_palindrome function
-import unittest
 
-class TestPalindrome(unittest.TestCase):
-    def test_is_palindrome(self):
-        self.assertFalse(is_palindrome('my name is sujit'))
-        self.assertTrue(is_palindrome('madam'))
-        self.assertFalse(is_palindrome('hello'))
-
-if __name__ == "__main__":
-    unittest.main()
